@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
 
 
-@pytest.fixture(escope="function")
+@pytest.fixture(scope="function")
 def setup_browser():
     options = Options()
     selenoid_capabilities = {
