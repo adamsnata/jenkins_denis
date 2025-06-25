@@ -6,6 +6,7 @@ from selenium import webdriver
 
 @pytest.fixture(scope="function")
 def setup_browser():
+    print("dsfgdgdfgfdgfgfhgfhgfjhgjhgjghj")
     options = Options()
     selenoid_capabilities = {
         "browserName": "chrome",
